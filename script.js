@@ -32,7 +32,7 @@ function generateRgbColor(){
     // 2. generate random color for blue
     const blue = Math.floor(Math.random()*255);
     //change text color when background color is too dark
-    if((red <= 80 && green <= 80 && blue <= 80) || (red<=10 || green<=10 || blue<=10)){
+    if((red <= 90 && green <= 90 && blue <= 90)||(red <=60 && green <=60) || (red<=10 || green<=10 || blue<=10)){
         textHeading.style.color = 'white';
     }
     else{
