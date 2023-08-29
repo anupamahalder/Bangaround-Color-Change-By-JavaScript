@@ -4,7 +4,7 @@ Live Site: https://anupamahalder.github.io/Random-Background-Color-Change-By-Jav
 <h1>Project Requirements:</h1>
 <p>Change the background color with random generated rgb background color function while clicked on the "change color" button</p>
 
-<h2>Steps to follow:</h2>h2>
+<h2>Steps to follow:</h2>
 <ul>
   <li>Create the function of random generated rgb color</li>
   <li>Call the function through button on click</li>
