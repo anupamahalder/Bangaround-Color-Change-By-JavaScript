@@ -8,7 +8,16 @@ window.onload = () => {
     main();
 }
 function main(){
-
+    // get the div container 
+    const mainDiv = document.getElementById('div-id');
+    //get the button
+    const btn = document.getElementById('change-btn');
+    //add event to btn
+    btn.addEventListener('click',function(){
+        const bgColor = generateRgbColor();
+        //set the new color to the div
+        mainDiv.style.backgroundColor = bgColor;
+    })
 }
 // Step-2: create random color generated function 
 function generateRgbColor(){
@@ -25,6 +34,6 @@ function generateRgbColor(){
     // Make rgb string with template string
     return `rgb(${red},${green},${blue})`;
 }
-// Step-3: Collect all necessary Element by selector 
+// Step-3: Collect all necessary Element by selector in main function
 
 // Setp-4: Handle event 
